@@ -12,13 +12,34 @@
 
 ## 🚀 快速开始
 
-### 安装
+### 方式1：WorkBuddy Skill 安装（推荐）
 
-1. 下载本仓库
-2. 将 `kuaidichaxun` 文件夹放到 `~/.workbuddy/skills/` 目录
-3. 重启 WorkBuddy
+在 WorkBuddy 中输入：
 
-### 命令行使用
+```
+skill install https://github.com/AngerFL/kuaidichaxun
+```
+
+安装后，可以在对话中直接使用：
+```
+用户：上海到扬州，5公斤，多少钱？
+助手：[自动调用技能，展示价格结果]
+```
+
+---
+
+### 方式2：手动安装
+
+1. 克隆本仓库：
+   ```bash
+   git clone https://github.com/AngerFL/kuaidichaxun.git ~/.workbuddy/skills/kuaidichaxun
+   ```
+
+2. 重启 WorkBuddy
+
+---
+
+### 命令行使用（调试/测试）
 
 ```bash
 cd ~/.workbuddy/skills/kuaidichaxun
